@@ -14,16 +14,18 @@ body
 }
 #container
 {
-	width: 50%;
+	width: 60%;
 	margin: 0px auto;
+	background-color: white;
+	margin-bottom: 30px;
 }
 #banner img
 {
 	width: 15%;
-    height: auto;
+   height: auto;
+   padding-top: 10px;
    float: left;
    padding-left: 10px;
-   padding-top: 10px;
 }
 #banner ul
 {
@@ -51,10 +53,13 @@ body
 .book a
 {
 	text-decoration: none;
-	margin-left: 43%;
 	color: black;
-	border: 1px solid black;
+	border: 3px solid black;
 	background-color: greenyellow;
+	float: right;
+	margin-top:1%;
+	margin-right: 24%;
+	font-size: 20px;
 }
 .book a:hover
 {
@@ -66,8 +71,10 @@ body
 {
 	width: 50%;
 	height: 250px;
-	margin: 0px auto;
+	float: left;
 	margin-top: 10px;
+	padding-left: 40px;
+	padding-bottom: 20px;
 }
 .content img
 {
@@ -79,14 +86,20 @@ body
 	border: 2px solid red;
 
 }
-#footer h4
+.book h1
 {
-	font-size: 50px;
-	color: black;
-	text-align: center;
+	float: right;
+	margin-top:11%;
+	margin-right:23%;
+	color: white;
 }
-#footer h4:hover
+.book h2
 {
-   border: 1px solid black;
-   color: red;
+	margin-top: 95%;
+	text-align: center;
+	font-size: 30px;
+}
+.book h2:hover
+{
+   color: blue;
 }
